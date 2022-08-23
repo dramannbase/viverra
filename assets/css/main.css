@@ -150,9 +150,6 @@ img{
     {
         font-size: 8px;
     }
-    img{
-        width: 400px;
-    }
 }
 
 @media (max-width:500px)
@@ -160,9 +157,6 @@ img{
     html
     {
         font-size: 7px;
-    }
-    img{
-        width: 300px;
     }
 }
 
@@ -194,6 +188,8 @@ img{
          -o-transition: .7s ease .3s;
             transition: .7s ease .3s;
 }
+
+
 
 .preloader .spinner
 {
@@ -316,20 +312,9 @@ img{
     overflow-x: hidden;
 }
 
-
-
-
-.test3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
 .content-area .content-area-inner section
 {
     max-width: 700px;
-    min-width: 700px;
     margin: 0 auto 20vh auto;
     
 }
