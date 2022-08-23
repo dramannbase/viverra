@@ -148,7 +148,10 @@ img{
 {
     html
     {
-        font-size: 8px;
+        font-size: 7px;
+    }
+    h1{
+        font-size: 30px;
     }
 }
 
@@ -156,7 +159,10 @@ img{
 {
     html
     {
-        font-size: 7px;
+        font-size: 6px;
+    }
+    h1{
+        font-size: 30px;
     }
 }
 
