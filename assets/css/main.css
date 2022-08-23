@@ -32,11 +32,13 @@
 
 html
 {
-    font-size: 10px;
+    
+    font-size: 12px;
 }
 
 body
 {
+    
     font-family: 'original', sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -133,11 +135,19 @@ button
             box-shadow: none;
 }
 
+img{
+    width: 500px;
+    margin-left: 10%;
+}
+
 @media (max-width:600px)
 {
     html
     {
         font-size: 8px;
+    }
+    img{
+        width: 400px;
     }
 }
 
@@ -146,6 +156,9 @@ button
     html
     {
         font-size: 7px;
+    }
+    img{
+        width: 300px;
     }
 }
 
@@ -239,7 +252,9 @@ button
     }
 }
 
-
+.test1{
+    padding-top: 10%;
+}
 
 /** 3. Image Container
 *******************************************************************/
@@ -297,10 +312,22 @@ button
     overflow-x: hidden;
 }
 
+
+
+
+.test3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 .content-area .content-area-inner section
 {
     max-width: 700px;
+    min-width: 700px;
     margin: 0 auto 20vh auto;
+    
 }
 
 .content-area .content-area-inner section:last-child
@@ -325,6 +352,11 @@ button
     height: 100vh;
     margin-bottom: 0;
 
+    text-align: center;
+}
+
+.whitepaper{
+    
     text-align: center;
 }
 
@@ -848,6 +880,7 @@ button
 
     opacity: 0;
 }
+
 
 #contact #contact-form input,
 #contact #contact-form textarea,
