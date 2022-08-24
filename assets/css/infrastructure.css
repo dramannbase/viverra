@@ -33,8 +33,10 @@
 html
 {
     
-    font-size: 12px;
+    font-size: 20px;
 }
+
+
 
 body
 {
@@ -75,7 +77,7 @@ h2
 
 h3
 {
-    font-size: 3.4rem;
+    font-size: 2.6rem;
 }
 
 h4
@@ -139,30 +141,141 @@ button
             box-shadow: none;
 }
 
+html{
+    width: 100%;
+}
 
-@media (max-width:600px)
+.content-area .content-area-inner section
 {
-    html
-    {
-        font-size: 8px;
+    max-width: 45%;
+}
+
+@media (max-width:1660px)
+{
+    h3{
+        font-size: 42px;
     }
-    h1{
+    p{
         font-size: 30px;
+    }
+        .content-area .content-area-inner section
+    {
+        max-width: 50%;
+    }
+}
+
+@media (max-width:1400px)
+{
+    h3{
+        font-size: 30px;
+    }
+    p{
+        font-size: 27px;
+    }
+        .content-area .content-area-inner section
+    {
+        max-width: 50%;
+    }
+}
+
+@media (max-width:980px)
+{
+    h3{
+        font-size: 30px;
+    }
+    p{
+        font-size: 22px;
+    }
+    .content-area .content-area-inner section
+    {
+        max-width: 60%;
+    }
+}
+
+@media (max-width:700px)
+{
+    h3{
+        font-size: 26px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .content-area .content-area-inner section
+    {
+        max-width: 65%;
+    }
+}
+
+
+@media (max-width:590px)
+{
+    h3{
+        font-size: 22px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .content-area .content-area-inner section
+    {
+        max-width: 75%;
     }
 }
 
 @media (max-width:500px)
 {
-    html
-    {
-        font-size: 8px;
+    h3{
+        font-size: 20px;
     }
-    h1{
-        font-size: 30px;
+    p{
+        font-size: 17px;
+    }
+    .content-area .content-area-inner section
+    {
+        max-width: 86%;
     }
 }
 
+@media (max-width:450px)
+{
+    h3{
+        font-size: 19px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .content-area .content-area-inner section
+    {
+        max-width: 86%;
+    }
+}
 
+@media (max-width:430px)
+{
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .content-area .content-area-inner section
+    {
+        max-width: 86%;
+    }
+}
+
+@media (max-width:410px)
+{
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .content-area .content-area-inner section
+    {
+        max-width: 86%;
+    }
+}
 
 /** 2. Preloader
 *******************************************************************/
@@ -293,14 +406,15 @@ button
 }
 
 .left1{
-    float: right;
+    float: left;
+    width: 50%
 }
 
 .left {
     
-    width: 50%;
+    width: 48%;
     margin-top: -4%;
-    margin-right: 2%;
+    margin-left: 2%;
  }
 
 /** 4. Content Area
@@ -325,9 +439,7 @@ button
 
 .content-area .content-area-inner section
 {
-    max-width: 700px;
     margin: 0 auto 20vh auto;
-    
 }
 
 .content-area .content-area-inner section:last-child

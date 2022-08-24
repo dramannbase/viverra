@@ -5,6 +5,7 @@ a{
     margin-top: 0%;
 }
 
+
 .test1{
     display: inline;
 }
@@ -47,11 +48,6 @@ a{
     src: url(../fonts/Undertale-Battle-Font.ttf);
 }
 
-html
-{
-    
-    font-size: 12px;
-}
 
 body
 {
@@ -59,7 +55,6 @@ body
     font-family: 'original', sans-serif;
     font-weight: 300;
     font-style: normal;
-
     color: #fff;
     background: #fff;
 
@@ -161,17 +156,29 @@ img{
     margin-left: 10%;
 }
 
-@media (max-width:1450px)
+.test5{
+    width: 35%;
+}
+
+@media (max-width:1850px)
 {
     h1{
         font-size: 60px;
     }
 }
 
-@media (max-width:1150px)
+@media (max-width:1550px)
 {
     h1{
-        font-size: 60px;
+        font-size: 40px;
+    }
+   
+}
+
+@media (max-width:1180px)
+{
+    h1{
+        font-size: 40px;
     }
 
     .test5{
@@ -182,26 +189,26 @@ img{
 @media (max-width:1100px)
 {
     h1{
-        font-size: 60px;
-    }
-
-    .test5{
-        width: 60%;
+        font-size: 40px;
     }
 }
 
-@media (max-width:885px)
+@media (max-width:1000px)
 {
     h1{
-        font-size: 50px;
+        font-size: 35px;
     }
 
     .test5{
         width: 60%;
+        border-bottom: 4px solid white;
+    }
+    .gg{
+        font-size: 10px;
     }
 }
 
-@media (max-width:680px)
+@media (max-width:860px)
 {
     html
     {
@@ -210,21 +217,20 @@ img{
     h1{
         font-size: 30px;
     }
-
     .test5{
         border-bottom: 4px white solid;
-        width: 50%;
+        
     }
 }
 
-@media (max-width:500px)
+@media (max-width:650px)
 {
     html
     {
         font-size: 8px;
     }
     h1{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .test5{
@@ -240,14 +246,13 @@ img{
         font-size: 6px;
     }
     h1{
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .test5{
         width: 60%;
     }
 }
-
 
 
 /** 2. Preloader
@@ -457,7 +462,7 @@ img{
 
 #intro .container-mid a
 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     line-height: 2.92em;
 
     position: relative;
@@ -662,27 +667,6 @@ img{
     display: block;
 }
 
-#service .services-list li button
-{
-    font-size: 2.4rem;
-    font-size: 2rem;
-    font-weight: 300;
-    line-height: 3.4em;
-
-    position: relative;
-
-    display: block;
-
-    width: 100%;
-    margin-bottom: 1rem;
-    padding: 0;
-
-    text-align: left;
-
-    border: none;
-    border-bottom: 2px solid #ccc;
-    border-radius: 0;
-}
 
 #service .services-list li button:after
 {
