@@ -191,6 +191,11 @@ img{
     h1{
         font-size: 40px;
     }
+    
+    .test5{
+        width: 60%;
+        border-bottom: 4px solid white;
+    }
 }
 
 @media (max-width:1000px)
