@@ -145,9 +145,17 @@ html{
     width: 100%;
 }
 
+img{
+    margin-top: -12%;
+}
+
 .content-area .content-area-inner section
 {
     max-width: 45%;
+}
+
+img{
+    width: 50%;
 }
 
 @media (max-width:1660px)
@@ -406,16 +414,15 @@ html{
 }
 
 .left1{
-    float: left;
-    width: 50%
+   float: right;
+   width: 50%;
 }
 
-.left {
-    
-    width: 48%;
-    margin-top: -4%;
-    margin-left: 2%;
- }
+
+.tedd{
+    text-align: center;
+}
+
 
 /** 4. Content Area
 *******************************************************************/
@@ -675,10 +682,6 @@ html{
     margin-bottom: 0;
 }
 
-#about .clients img
-{
-    margin-top: 3rem;
-}
 
 
 
