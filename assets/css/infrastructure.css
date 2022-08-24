@@ -1,20 +1,3 @@
-
-
-a{
-    margin: 5%;
-    margin-top: 0%;
-}
-
-.test1{
-    display: inline;
-}
-
-.test5{
-    width:50%;
-    border-bottom: 6px solid white;
-    margin: 0 auto;
-}
-
 /******************************************************************
 
 
@@ -156,64 +139,15 @@ button
             box-shadow: none;
 }
 
-img{
-    width: 500px;
-    margin-left: 10%;
-}
 
-@media (max-width:1450px)
-{
-    h1{
-        font-size: 60px;
-    }
-}
-
-@media (max-width:1150px)
-{
-    h1{
-        font-size: 60px;
-    }
-
-    .test5{
-        width: 50%;
-    }
-}
-
-@media (max-width:1100px)
-{
-    h1{
-        font-size: 60px;
-    }
-
-    .test5{
-        width: 60%;
-    }
-}
-
-@media (max-width:885px)
-{
-    h1{
-        font-size: 50px;
-    }
-
-    .test5{
-        width: 60%;
-    }
-}
-
-@media (max-width:680px)
+@media (max-width:600px)
 {
     html
     {
-        font-size: 9px;
+        font-size: 8px;
     }
     h1{
         font-size: 30px;
-    }
-
-    .test5{
-        border-bottom: 4px white solid;
-        width: 50%;
     }
 }
 
@@ -225,26 +159,6 @@ img{
     }
     h1{
         font-size: 30px;
-    }
-
-    .test5{
-        width: 60%;
-    }
-}
-
-
-@media (max-width:420px)
-{
-    html
-    {
-        font-size: 6px;
-    }
-    h1{
-        font-size: 20px;
-    }
-
-    .test5{
-        width: 60%;
     }
 }
 
@@ -372,11 +286,22 @@ img{
          -o-transition: opacity 1s ease;
             transition: opacity 1s ease;
 
-    background: rgb(175,238,238);
-    background: linear-gradient(180deg, rgba(175,238,238,1) 0%, rgba(170,142,191,1) 90%);
+            background: rgb(178,240,240);
+            background: linear-gradient(90deg, rgba(178,240,240,0.8720530448507529) 0%, rgba(166,123,200,0.5415208319655987) 16%, rgba(166,123,200,0.5919410000328256) 50%, rgba(166,123,200,0.5247141092765231) 87%, rgba(178,240,240,0.8860586470916492) 100%);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.left1{
+    float: right;
+}
+
+.left {
+    
+    width: 50%;
+    margin-top: -4%;
+    margin-right: 2%;
+ }
 
 /** 4. Content Area
 *******************************************************************/
@@ -437,7 +362,6 @@ img{
 
 #intro .container-mid
 {
-
     position: absolute;
     top: 50%;
 
@@ -1273,4 +1197,3 @@ img{
     color: #fff;
     border-bottom: 1px solid #eee;
 }
-

@@ -159,7 +159,7 @@ img{
 {
     html
     {
-        font-size: 6px;
+        font-size: 7px;
     }
     h1{
         font-size: 30px;
@@ -355,6 +355,7 @@ img{
 
 #intro .container-mid
 {
+
     position: absolute;
     top: 50%;
 
