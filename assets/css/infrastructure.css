@@ -188,6 +188,12 @@ img{
     width: 30%;
 }
 
+
+.content-area .content-area-inner section
+{
+    margin: 0 auto 20vh auto;
+}
+
 @media (max-width:1660px)
 {
     h3{
@@ -228,7 +234,7 @@ img{
     
 }
 
-@media (max-width:800px)
+@media (max-width:900px)
 {
    
     .content-area .content-area-inner section
@@ -241,16 +247,23 @@ img{
         padding-left: 1%;
         width: 30%;
     }
-    
+    .content-area .content-area-inner section
+    {
+        margin: 0 auto 12vh auto;
+    }
 }
 
 
-@media (max-width:590px)
+@media (max-width:600px)
 {
     .content-area .content-area-inner section
     {
         max-width: 75%;
     }
+    .content-area .content-area-inner section
+{
+    margin: 0 auto 8vh auto;
+}
 }
 
 @media (max-width:500px)
@@ -474,10 +487,6 @@ img{
     overflow-x: hidden;
 }
 
-.content-area .content-area-inner section
-{
-    margin: 0 auto 20vh auto;
-}
 
 .content-area .content-area-inner section:last-child
 {
