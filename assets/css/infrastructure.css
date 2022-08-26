@@ -152,10 +152,11 @@ img{
 .content-area .content-area-inner section
 {
     max-width: 45%;
+    padding-top: 5%;
 }
 
 img{
-    width: 50%;
+    width: 60%;
 }
 
 @media (max-width:1660px)
@@ -407,8 +408,9 @@ img{
          -o-transition: opacity 1s ease;
             transition: opacity 1s ease;
 
-            background: rgb(178,240,240);
-            background: linear-gradient(90deg, rgba(178,240,240,0.8720530448507529) 0%, rgba(166,123,200,0.5415208319655987) 16%, rgba(166,123,200,0.5919410000328256) 50%, rgba(166,123,200,0.5247141092765231) 87%, rgba(178,240,240,0.8860586470916492) 100%);
+            background: rgb(175,238,238);
+            background: linear-gradient(180deg, rgba(175,238,238,1) 0%, rgba(170,142,191,1) 90%);
+
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -418,10 +420,21 @@ img{
    width: 50%;
 }
 
-
-.tedd{
-    text-align: center;
+.intro1{
+    width: 90%;
+    margin-top: 2%;
 }
+
+.tedd4{
+    border-bottom: solid 4px white;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    width: 30%;
+}
+
+.tedd1{
+    text-align: center;
+}    
 
 
 /** 4. Content Area
