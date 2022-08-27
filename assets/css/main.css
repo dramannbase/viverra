@@ -24,10 +24,15 @@
 
 /** 1. Basic
 *******************************************************************/
-
 @font-face {
     font-family: original;
-    src: url(../fonts/Undertale-Battle-Font.ttf);
+    src: url(../fonts/AzeretMono/AzeretMono-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: bold;
+    src: url(../fonts/AzeretMono/AzeretMono-Black.ttf);
 }
 
 html
