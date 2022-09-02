@@ -256,7 +256,23 @@ img{
         font-size: 6px;
     }
     h1{
-        font-size: 25px;
+        font-size: 21px;
+    }
+
+    .test5{
+        width: 60%;
+    }
+}
+
+
+@media (max-width:330px)
+{
+    html
+    {
+        font-size: 5px;
+    }
+    h1{
+        font-size: 17px;
     }
 
     .test5{
