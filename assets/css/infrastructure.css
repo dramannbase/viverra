@@ -220,10 +220,10 @@ img{
 .logo{
     display: inline-block;
     color: white;
-    font-size: 20px;
+    font-size: 3vh;
     margin-left: 20px;
     margin-top: 10px;
-
+    font-family: bold;
 }
 
 
@@ -253,10 +253,10 @@ img{
 @media (max-width:1660px)
 {
     h3{
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
     p{
-        font-size: 3vw;
+        font-size: 2.1vw;
     }
         .content-area .content-area-inner section
     {
@@ -292,6 +292,9 @@ img{
     {
         margin: 0 auto 12vh auto;
     }
+    p{
+        font-size: 3vw;
+    }
 }
 
 
@@ -318,6 +321,13 @@ img{
     .content-area .content-area-inner section
     {
         max-width: 86%;
+    }
+
+    .logo{
+        font-size: 2.3vh;
+    }
+    .header{
+        height: 6vh;
     }
 }
 
