@@ -25,6 +25,9 @@
 /** 1. Basic
 *******************************************************************/
 
+
+
+
 @font-face {
     font-family: original;
     src: url(../fonts/AzeretMono/AzeretMono-Medium.ttf);
@@ -228,25 +231,6 @@ img{
     font-family: bold;
 }
 
-
-#service .services-list li button:after
-{
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: 1.7rem;
-
-    position: absolute;
-    top: 50%;
-    right: 0;
-
-    content: '\f078';
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-
-    color: #fff;
-}
-
-
 @media (max-width:1000px)
 {
     
@@ -283,11 +267,7 @@ img{
         max-width: 65%;
     }
 
-    #service .services-list li button
-{
-    font-size: 3vw;
-}
-    
+   
 }
 
 @media (max-width:1400px)
@@ -323,10 +303,7 @@ img{
         font-size: 3vw;
     }
     
-    #service .services-list li button:after
-    {
-        font-size: 1.1rem;
-    }
+    
 
 }
 
@@ -827,7 +804,6 @@ img{
     line-height: 3.4em;
     font-family: bold;
     position: relative;
-
     display: block;
 
     width: 100%;
