@@ -229,6 +229,24 @@ img{
 }
 
 
+#service .services-list li button:after
+{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 1.7rem;
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    content: '\f078';
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+    color: #fff;
+}
+
+
 @media (max-width:1000px)
 {
     
@@ -304,6 +322,12 @@ img{
     p{
         font-size: 3vw;
     }
+    
+    #service .services-list li button:after
+    {
+        font-size: 1.1rem;
+    }
+
 }
 
 
@@ -341,7 +365,7 @@ img{
     
 
     .logo{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     .header{
         height: 6vh;
@@ -814,23 +838,6 @@ img{
 
     border: none;
     border-radius: 0;
-}
-
-#service .services-list li button:after
-{
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: 1.7rem;
-
-    position: absolute;
-    top: 50%;
-    right: 0;
-
-    content: '\f078';
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-
-    color: #fff;
 }
 
 #service .services-list li .well
