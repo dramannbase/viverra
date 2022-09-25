@@ -312,9 +312,16 @@ img{
         max-width: 75%;
     }
     .content-area .content-area-inner section
-{
+    {  
     margin: 0 auto 8vh auto;
+    }
+
+    #intro .container-mid
+{
+    width: 130%;
+    margin-left:-15%;
 }
+
 }
 
 @media (max-width:500px)
